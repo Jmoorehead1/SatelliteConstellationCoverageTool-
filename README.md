@@ -1,2 +1,4 @@
 # SatelliteConstellationCoverageTool-
-Built a Python tool using Skyfield to simulate satellite orbits and evaluate constellation coverage. Modeled revisit times and surface access for LEO networks like Starlink.
+This project was an exploration of satellite constellation design and coverage analysis. I developed a Python tool using libraries like Skyfield to simulate satellite orbits and calculate how well a constellation could cover Earth’s surface. The goal was to build a simplified version of the kind of planning tools used by companies like Starlink or OneWeb to deploy low Earth orbit satellite networks.
+
+The purpose was to model multiple satellites in circular orbits and visualize their ground tracks, revisit times, and surface coverage over time. I wanted to understand how many satellites were needed at a given altitude to ensure frequent pass-over of any location on Earth. The project involved calculating orbital periods, simulating orbital planes, and projecting satellite footprints onto a 2D map.
